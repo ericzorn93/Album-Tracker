@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Editing Album</h1>
+
+  <%= render 'form', album: @album %>
+
+  <br>
+  <%= link_to 'Show', @album, class: 'waves-effect waves-light btn green' %> |
+  <%= link_to 'Back', albums_path, class: 'waves-effect waves-light btn blue' %>
+</div>
