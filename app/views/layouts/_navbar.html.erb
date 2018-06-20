@@ -2,6 +2,7 @@
   <div class="nav-wrapper red">
     <div class="container">
       <%= link_to 'Album Tracker App', root_path, class: 'brand-logo' %>
+      <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
@@ -10,6 +11,11 @@
 
       <%# Custom Links %>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><%= link_to "All Albums", root_path %></li>
+        <li><%= link_to "New Album", new_album_path %></li>
+      </ul>
+
+      <ul id="mobile-demo" class="sidenav">
         <li><%= link_to "All Albums", root_path %></li>
         <li><%= link_to "New Album", new_album_path %></li>
       </ul>
