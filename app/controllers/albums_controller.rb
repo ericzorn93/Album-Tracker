@@ -4,7 +4,7 @@ class AlbumsController < ApplicationController
   # GET /albums
   # GET /albums.json
   def index
-    @albums = Album.all
+    @albums = Album.all.order('created_at DESC')
   end
 
   # GET /albums/1
@@ -26,6 +26,7 @@ class AlbumsController < ApplicationController
   def create
     @album = Album.new(album_params)
 
+
     respond_to do |format|
       if @album.save
         format.html { redirect_to @album, notice: 'Album was successfully created.' }
@@ -35,6 +36,9 @@ class AlbumsController < ApplicationController
         format.json { render json: @album.errors, status: :unprocessable_entity }
       end
     end
+
+    # raise params.inspect
+
   end
 
   # PATCH/PUT /albums/1
@@ -69,6 +73,6 @@ class AlbumsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def album_params
-      params.require(:album).permit(:band, :title, :genre, :year, :plays)
+      params.require(:album).permit(:band, :title, :genre, :year, :plays, :record_label_id)
     end
 end

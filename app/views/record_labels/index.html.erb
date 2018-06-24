@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Record Labels</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @record_labels.each do |record_label| %>
+      <tr>
+        <td><%= record_label.name %></td>
+        <td><%= link_to 'Show', record_label %></td>
+        <td><%= link_to 'Edit', edit_record_label_path(record_label) %></td>
+        <td><%= link_to 'Destroy', record_label, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Record Label', new_record_label_path %>

@@ -13,28 +13,36 @@
 
   <div class="field">
     <%= form.label :band %>
-    <%= form.text_field :band %>
+    <%= form.text_field :band, required: true%>
   </div>
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :genre %>
-    <%= form.text_field :genre %>
+    <%= form.text_field :genre, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :year %>
-    <%= form.text_field :year %>
+    <%= form.text_field :year, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :plays %>
-    <%= form.number_field :plays %>
+    <%= form.number_field :plays, required: true %>
   </div>
+
+  <div class="field">
+    <%= form.label :record_label_id %>
+    <%= form.select(:record_label_id, options_from_collection_for_select(RecordLabel.all, :id, :name), :include_blank => "Please Select") %>
+  </div>
+
+  <br><br>
+  <%#= form.hidden_field :record_label_id, value: @album %>
 
   <div class="actions">
     <%= form.submit class: 'waves-effect waves-light btn red'%>
