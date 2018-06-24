@@ -29,6 +29,18 @@
       <strong>Plays:</strong>
       <%= @album.plays %>
     </p>
+
+    <% if @album.record_label_id %>
+      <p class="collection-item">
+        <strong>Record Label:</strong>
+        <%= RecordLabel.find(@album.record_label_id).name %>
+      </p>
+    <% else %>
+      <p class="collection-item">
+        <strong>Record Label:</strong>
+        <em>*No Record Label Found</em>
+      </p>
+    <% end %>
   </div>
 
   <%= link_to 'Edit', edit_album_path(@album), class: 'waves-effect waves-light btn green' %> |
