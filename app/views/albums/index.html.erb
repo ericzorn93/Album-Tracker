@@ -11,6 +11,7 @@
       <th>Genre</th>
       <th>Year</th>
       <th>Plays</th>
+      <th>Record Label</th>
       <th>Created At</th>
       <th>Updated At</th>
       <th colspan="3"></th>
@@ -25,6 +26,11 @@
         <td><%= album.genre %></td>
         <td><%= album.year %></td>
         <td><%= album.plays %></td>
+        <% if album.record_label_id != nil %>
+          <td><%= RecordLabel.find(album.record_label_id).name %></td>
+        <% else %>
+          <td><em>*No Record Label Found</em></td>
+        <% end %>
         <td><%= time_ago_in_words(album.created_at) %></td>
         <td><%= time_ago_in_words(album.updated_at) %></td>
         <td><%= link_to 'Show', album, class: 'waves-effect waves-light btn blue' %></td>
@@ -40,4 +46,4 @@
   <%= link_to 'New Album', new_album_path, class: 'waves-effect waves-light btn teal lighten-2' %>
 </div>
 
-<%= render'layouts/footer' %>
+<%#= render'layouts/footer' %>
