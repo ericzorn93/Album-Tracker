@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b778ab-7406-4003-a363-9b4ffc920173" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/albums/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/albums/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/albums/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/albums/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/record_labels/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/record_labels/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/record_labels/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/record_labels/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -41,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="albums.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="albums.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/albums.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/app/views/albums/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/record_labels/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -131,61 +140,6 @@
             <path>
               <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="albums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="record_labels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlbumTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlbumTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,12 +283,12 @@
       <workItem from="1529548081654" duration="1189000" />
       <workItem from="1529610111819" duration="611000" />
       <workItem from="1529807959240" duration="23000" />
-      <workItem from="1529872167101" duration="6946000" />
+      <workItem from="1529872167101" duration="7312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23778000" />
+    <option name="totallyTimeSpent" value="24144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="23" width="1152" height="800" extended-state="0" />
@@ -368,13 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/albums/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
@@ -708,6 +655,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

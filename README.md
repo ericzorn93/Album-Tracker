@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**The application tracks music albums and record labels for a user. It uses Materialize CSS for Styling**
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application is for my Master's Degree at the University of Denver in Information and Communication's Technology with a concentration in Web Design and Development. 
+This course is on the Ruby programming language and Rails framework.
