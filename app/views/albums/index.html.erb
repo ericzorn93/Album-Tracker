@@ -27,7 +27,7 @@
         <td><%= album.year %></td>
         <td><%= album.plays %></td>
         <% if album.record_label_id != nil %>
-          <td><%= RecordLabel.find(album.record_label_id).name %></td>
+          <td><%= album.record_label.name %></td>
         <% else %>
           <td id="recordlabel__notFound"><em>*No Record Label Found</em></td>
         <% end %>
