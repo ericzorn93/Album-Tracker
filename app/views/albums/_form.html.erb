@@ -38,7 +38,11 @@
 
   <div class="field">
     <%= form.label :record_label_id %>
+
+    <%# Rails 4 Form Selection Syntax %>
     <%#= form.select(:record_label_id, options_from_collection_for_select(RecordLabel.all, :id, :name), :include_blank => "Please Select Record Label Below...") %>
+
+    <%# Rails 5 Form Selection Syntax (Shorter) %>
     <%= form.collection_select :record_label_id, RecordLabel.all, :id, :name, include_blank: 'Please Select Record Label Below...' %>
   </div>
 
