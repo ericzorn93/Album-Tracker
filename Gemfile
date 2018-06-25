@@ -47,6 +47,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Custom Gems
 gem 'materialize-sass', '~> 1.0.0.rc1'
+gem 'webpacker', '~> 3.5'
 
 
 group :development, :test do
