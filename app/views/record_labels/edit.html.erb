@@ -1,6 +1,11 @@
-<h1>Editing Record Label</h1>
+<div class="container">
+  <h1>Editing Record Label</h1>
 
-<%= render 'form', record_label: @record_label %>
+  <%= render 'form', record_label: @record_label %>
 
-<%= link_to 'Show', @record_label %> |
-<%= link_to 'Back', record_labels_path %>
+  <br>
+
+  <%= link_to 'Show', @record_label, class: "waves-effect waves-light btn red" %> |
+  <%= link_to 'Back', record_labels_path, class: "waves-effect waves-light btn blue" %>
+</div>
+
