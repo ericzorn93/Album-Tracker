@@ -53,3 +53,19 @@ label {
 .field select {
   display: block;
 }
+
+.checkboxes label {
+  display: block;
+  //font-size: 20px;
+}
+
+.field input[type="checkbox"] {
+  opacity: 1;
+  margin-left: 80px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}

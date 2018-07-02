@@ -11,10 +11,22 @@
     </div>
   <% end %>
 
+  <div class="field checkboxes">
+    <%= form.label :artist_id, class: "checkbox-label" %>
+    <%= form.collection_check_boxes(:artist_ids, @artists, :id, :name) %>
+  </div>
+
+  <hr>
+
   <div class="field">
     <%= form.label :band %>
     <%= form.text_field :band, required: true%>
   </div>
+
+<!--  <div class="field">-->
+    <%#= form.label :artist_id %>
+    <%#= form.collection_select(:artist_ids, @artists, :id, :name) %>
+<!--  </div>-->
 
   <div class="field">
     <%= form.label 'Song Title' %>
@@ -46,8 +58,8 @@
     <%= form.collection_select :record_label_id, RecordLabel.all, :id, :name, include_blank: 'Please Select Record Label Below...' %>
   </div>
 
-  <br><br>
-  <%#= form.hidden_field :record_label_id, value: @album %>
+
+  <br>
 
   <div class="actions">
     <%= form.submit class: 'waves-effect waves-light btn red'%>
