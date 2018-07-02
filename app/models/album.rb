@@ -1,6 +1,6 @@
 class Album < ApplicationRecord
   belongs_to :record_label, required: true
-  has_and_belongs_to_many :artists
+  has_and_belongs_to_many :artists, dependent: :destroy
 
   validates :artist_ids, presence: true
   validates :record_label_id, presence: true
