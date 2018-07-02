@@ -5,9 +5,23 @@
   <h3 align="center">Information About Album: <%= @album.title %></h3>
 
   <div class="collection">
-    <p class="collection-item">
+    <!-- <p class="collection-item">
       <strong>Band:</strong>
-      <%= @album.band %>
+      <%# @album.band %>
+    </p> -->
+
+
+    <p class="collection-item">
+      <strong>Artist(s):</strong>
+      <% if @album.artists.length > 1 %>
+        <% @album.artists.each do |artist| %>
+          <%= artist.name %> | Genre: <%= artist.genre %>,
+        <% end %>
+      <% else %>
+        <% @album.artists.each do |artist| %>
+          <%= artist.name %> | Genre: <%= artist.genre %>
+        <% end %>
+      <% end %>
     </p>
 
     <p class="collection-item">
