@@ -1,4 +1,4 @@
-# README
+# README - Programmed by Eric Zorn
 
 **The application tracks music albums and record labels for a user. It uses Materialize CSS for Styling**
 
