@@ -5,4 +5,4 @@
 This application is for my Master's Degree at the University of Denver in Information and Communication's Technology with a concentration in Web Design and Development. 
 This course is on the Ruby programming language and Rails framework.
 
-Application Deployed at: **https://ict4585-albumtracker-updated.herokuapp.com**
+Application Deployed at: **https://ict4585-albumtracker-updated.herokuapp.com** 
