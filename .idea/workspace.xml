@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b778ab-7406-4003-a363-9b4ffc920173" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/contacts.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/contacts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/contacts_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/contact.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/_contact.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/edit.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20180723161611_create_contacts.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/contacts_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/contacts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/contact_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/contacts_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/show.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -75,38 +59,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180723163532_remove_contact.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180723163532_remove_contact.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="525">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180723162634_add_message_to_contact.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180723162634_add_message_to_contact.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="29" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -164,10 +148,6 @@
         <option value="$PROJECT_DIR$/app/views/artists/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" />
-        <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/contacts/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/contacts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/albums/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180723162634_add_message_to_contact.rb" />
@@ -175,6 +155,10 @@
         <option value="$PROJECT_DIR$/app/models/contact.rb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180723163532_remove_contact.rb" />
+        <option value="$PROJECT_DIR$/app/views/contacts/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contacts/show.html.erb" />
       </list>
     </option>
   </component>
@@ -233,14 +217,7 @@
               <item name="Album-Tracker-Validators" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="albums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Album-Tracker-Validators" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Album-Tracker-Validators" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Album-Tracker-Validators" type="b2602c69:ProjectViewProjectNode" />
@@ -408,12 +385,12 @@
       <workItem from="1530481628407" duration="16001000" />
       <workItem from="1530561000297" duration="7880000" />
       <workItem from="1531409596419" duration="15000" />
-      <workItem from="1532362165238" duration="1591000" />
+      <workItem from="1532362165238" duration="1836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63163000" />
+    <option name="totallyTimeSpent" value="63408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="23" width="1152" height="800" extended-state="0" />
@@ -658,27 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="89" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/albums/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -689,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -707,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -721,17 +670,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180723163532_remove_contact.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180723163532_remove_contact.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="479">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
