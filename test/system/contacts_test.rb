@@ -17,6 +17,7 @@ class ContactsTest < ApplicationSystemTestCase
     fill_in "Email", with: @contact.email
     fill_in "First Name", with: @contact.first_name
     fill_in "Last Name", with: @contact.last_name
+    fill_in "Message", with: @contact.message
     fill_in "Phone Number", with: @contact.phone_number
     click_on "Create Contact"
 
@@ -31,6 +32,7 @@ class ContactsTest < ApplicationSystemTestCase
     fill_in "Email", with: @contact.email
     fill_in "First Name", with: @contact.first_name
     fill_in "Last Name", with: @contact.last_name
+    fill_in "Message", with: @contact.message
     fill_in "Phone Number", with: @contact.phone_number
     click_on "Update Contact"
 
