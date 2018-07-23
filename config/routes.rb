@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   resources :artists
   resources :record_labels
   resources :albums
