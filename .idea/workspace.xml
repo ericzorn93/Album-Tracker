@@ -74,7 +74,11 @@
       </file>
       <file leaf-file-name="20180723163705_create_contacts.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20180723163705_create_contacts.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
@@ -379,12 +383,12 @@
       <workItem from="1530481628407" duration="16001000" />
       <workItem from="1530561000297" duration="7880000" />
       <workItem from="1531409596419" duration="15000" />
-      <workItem from="1532362165238" duration="2708000" />
+      <workItem from="1532362165238" duration="3227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64280000" />
+    <option name="totallyTimeSpent" value="64799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="23" width="1152" height="800" extended-state="0" />
@@ -398,7 +402,7 @@
       <window_info anchor="bottom" id="Run" order="7" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32859176" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2517781" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.4679943" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -705,7 +709,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180723163705_create_contacts.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
