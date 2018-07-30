@@ -12,27 +12,35 @@
 
       <%# Custom Links %>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><%= link_to "All Albums", root_path %></li>
-        <li><%= link_to "New Album", new_album_path %></li>
-        <li><%= link_to "All Record Labels", record_labels_path %></li>
-        <li><%= link_to "New Record Label", new_record_label_path %></li>
-        <li><%= link_to "All Artists", artists_path %></li>
-        <li><%= link_to "New Artist", new_artist_path %></li>
-        <li><%= link_to "Contact Us", new_contact_path %></li>
         <% if user_signed_in? %>
+          <li><%= link_to "All Albums", root_path %></li>
+          <li><%= link_to "New Album", new_album_path %></li>
+          <li><%= link_to "All Record Labels", record_labels_path %></li>
+          <li><%= link_to "New Record Label", new_record_label_path %></li>
+          <li><%= link_to "All Artists", artists_path %></li>
+          <li><%= link_to "New Artist", new_artist_path %></li>
+          <li><%= link_to "Contact Us", new_contact_path %></li>
           <li><%= link_to "Log Out", destroy_user_session_path, method: :delete  %></li>
+        <% else %>  
+          <li><%= link_to "Login", new_user_session_path %></li>
+          <li><%= link_to "Sign Up", new_user_registration_path %></li>
         <% end %>
       </ul>
 
       <ul id="mobile-demo" class="sidenav">
-        <li><%= link_to "All Albums", root_path %></li>
-        <li><%= link_to "New Album", new_album_path %></li>
-        <li><%= link_to "All Record Labels", record_labels_path %></li>
-        <li><%= link_to "New Record Label", new_record_label_path %></li>
-        <li><%= link_to "All Artists", artists_path %></li>
-        <li><%= link_to "New Artist", new_artist_path %></li>
-        <li><%= link_to "Contact Us", new_contact_path %></li>
-        <li><%= link_to "Log Out", destroy_user_session_path, method: :delete  %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to "All Albums", root_path %></li>
+          <li><%= link_to "New Album", new_album_path %></li>
+          <li><%= link_to "All Record Labels", record_labels_path %></li>
+          <li><%= link_to "New Record Label", new_record_label_path %></li>
+          <li><%= link_to "All Artists", artists_path %></li>
+          <li><%= link_to "New Artist", new_artist_path %></li>
+          <li><%= link_to "Contact Us", new_contact_path %></li>
+          <li><%= link_to "Log Out", destroy_user_session_path, method: :delete  %></li>
+        <% else %>  
+          <li><%= link_to "Login", new_user_session_path %></li>
+          <li><%= link_to "Sign Up", new_user_registration_path %></li>
+        <% end %>
       </ul>
   </div>
 </nav>
