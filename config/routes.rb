@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :contacts
+  resources :contacts do
+    collection do
+      get 'search'
+    end
+  end
 
   resources :artists do
     collection do

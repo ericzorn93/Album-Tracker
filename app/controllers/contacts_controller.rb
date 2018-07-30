@@ -8,6 +8,13 @@ class ContactsController < ApplicationController
     @contacts = Contact.all
   end
 
+  def search
+    @contacts = Contact.where("first_name LIKE ? OR last_name LIKE ? or first_name || last_name LIKE ?", "%#{params[:q]}%", "%#{params[:q]}%", "%#{params[:q]}%")
+    # .where("first_name like ? OR last_name like ?", "%#{params[:q]}%")
+
+    render :index
+  end
+
   # GET /contacts/1
   # GET /contacts/1.json
   def show
