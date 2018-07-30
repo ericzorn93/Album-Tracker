@@ -4,7 +4,11 @@ Rails.application.routes.draw do
 
   resources :artists
 
-  resources :record_labels
+  resources :record_labels do
+    collection do
+      get 'search'
+    end
+  end
 
   resources :albums do
     collection do

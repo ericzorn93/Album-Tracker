@@ -8,6 +8,11 @@ class RecordLabelsController < ApplicationController
     @record_labels = RecordLabel.all
   end
 
+  def search
+    @record_labels = RecordLabel.where("name like ?", "%#{params[:q]}%")
+    render :index
+  end
+
   # GET /record_labels/1
   # GET /record_labels/1.json
   def show
