@@ -49,6 +49,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'materialize-sass', '~> 1.0.0.rc1'
 gem 'webpacker', '~> 3.5'
 gem 'devise'
+gem 'jquery-ui-rails'
 
 
 group :development, :test do

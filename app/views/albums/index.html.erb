@@ -4,10 +4,14 @@
   <h1>All Albums</h1>
 
   <%= form_tag(search_albums_url, method: 'get') do %>
+    <%= csp_meta_tag %>
     <%= label_tag(:q, 'Search for:') %>
     <%= text_field_tag(:q) %>
     <%= submit_tag('Search') %>
   <% end %>
+
+  <h5><strong>Search Results (Click to Filter)</strong></h5>
+  <p id="complete" style="font-style: italic"></p>
 
   <br>
 
@@ -77,5 +81,34 @@
 
   <%= link_to 'New Album', new_album_path, class: 'waves-effect waves-light btn teal lighten-2' %>
 </div>
+
+
+<script type="text/javascript" charset="utf-8">
+  const search = document.getElementById("q");
+  let  newData = [];
+
+  // AJAX Call
+  $.ajax({ url: '/albums.json',
+      type: 'GET',
+      beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+      success: (response) => {
+          response.forEach(album => {
+              newData.push(album.title);
+          });
+      }
+  });
+
+
+  search.addEventListener("keyup", (e) => {
+    const searchValue = search.value;
+
+    newData.forEach(title => {
+        if (title === searchValue) {
+            document.querySelector("#complete").textContent = title;
+        }
+    })
+  });
+
+</script>
 
 <%#= render'layouts/footer' %>

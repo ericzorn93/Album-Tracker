@@ -11,6 +11,9 @@
 
   <br>
 
+  <h5><strong>Search Results (Click to Filter)</strong></h5>
+  <p id="complete" style="font-style: italic"></p>
+
   <table>
     <thead>
     <tr>
@@ -34,4 +37,33 @@
   <br>
 
   <%= link_to 'New Record Label', new_record_label_path, class: "waves-effect waves-light btn black" %>
+
+  <script type="text/javascript" charset="utf-8">
+      const search = document.getElementById("q");
+      let  newData = [];
+
+      // AJAX Call
+      $.ajax({ url: '/record_labels.json',
+          type: 'GET',
+          beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+          success: (response) => {
+              response.forEach(label => {
+                  newData.push(label.name);
+              });
+          }
+      });
+
+
+      search.addEventListener("keyup", (e) => {
+          const searchValue = search.value;
+
+          newData.forEach(title => {
+              if (title === searchValue) {
+                  document.querySelector("#complete").textContent = title;
+              }
+          })
+      });
+
+  </script>
+
 </div>

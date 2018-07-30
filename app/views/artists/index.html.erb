@@ -9,6 +9,9 @@
     <%= submit_tag('Search') %>
   <% end %>
 
+  <h5><strong>Search Results (Click to Filter)</strong></h5>
+  <p id="complete" style="font-style: italic"></p>
+
   <br>
 
   <table>
@@ -36,5 +39,33 @@
   <br>
 
   <%= link_to 'New Artist', new_artist_path, class: 'waves-effect waves-light btn teal' %>
+
+  <script type="text/javascript" charset="utf-8">
+      const search = document.getElementById("q");
+      let  newData = [];
+
+      // AJAX Call
+      $.ajax({ url: '/artists.json',
+          type: 'GET',
+          beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+          success: (response) => {
+              response.forEach(artist => {
+                  newData.push(artist.name);
+              });
+          }
+      });
+
+
+      search.addEventListener("keyup", (e) => {
+          const searchValue = search.value;
+
+          newData.forEach(title => {
+              if (title === searchValue) {
+                  document.querySelector("#complete").textContent = title;
+              }
+          })
+      });
+
+  </script>
 
 </div>
