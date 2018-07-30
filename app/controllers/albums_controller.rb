@@ -1,10 +1,15 @@
 class AlbumsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_album, only: [:show, :edit, :update, :destroy]
 
   # GET /albums
   # GET /albums.json
   def index
-    @albums = Album.all.order('created_at DESC')
+    if user_signed_in?
+      @albums = Album.all.order('created_at DESC')
+    else
+      redirect_to new_user_session
+    end
   end
 
   # GET /albums/1
