@@ -1,4 +1,5 @@
 class RecordLabelsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_record_label, only: [:show, :edit, :update, :destroy]
 
   # GET /record_labels

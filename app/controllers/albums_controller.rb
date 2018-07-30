@@ -5,11 +5,7 @@ class AlbumsController < ApplicationController
   # GET /albums
   # GET /albums.json
   def index
-    if user_signed_in?
-      @albums = Album.all.order('created_at DESC')
-    else
-      redirect_to new_user_session
-    end
+    @albums = Album.all.order('created_at DESC')
   end
 
   # GET /albums/1
