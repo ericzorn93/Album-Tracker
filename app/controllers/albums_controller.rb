@@ -2,10 +2,16 @@ class AlbumsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_album, only: [:show, :edit, :update, :destroy]
 
+
   # GET /albums
   # GET /albums.json
   def index
     @albums = Album.all.order('created_at DESC')
+  end
+
+  def search
+    @albums = Album.where("title like ?", "%#{params[:q]}%")
+    render :index
   end
 
   # GET /albums/1

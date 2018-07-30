@@ -3,6 +3,12 @@
 <div class="container">
   <h1>All Albums</h1>
 
+  <%= form_tag(search_albums_url, method: 'get') do %>
+    <%= label_tag(:q, 'Search for:') %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag('Search') %>
+  <% end %>
+
   <table>
     <thead>
     <tr>
