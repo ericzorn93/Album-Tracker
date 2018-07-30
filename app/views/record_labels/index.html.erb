@@ -4,6 +4,7 @@
   <h1>All Record Labels</h1>
 
   <%= form_tag(search_record_labels_url, method: 'get') do %>
+    <%= csp_meta_tag %>
     <%= label_tag(:q, 'Search for:') %>
     <%= text_field_tag(:q) %>
     <%= submit_tag('Search') %>
