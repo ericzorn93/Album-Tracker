@@ -44,7 +44,8 @@
       let  newData = [];
 
       // AJAX Call
-      $.ajax({ url: '/record_labels.json',
+      $.ajax({ 
+          url: '/record_labels.json',
           type: 'GET',
           beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
           success: (response) => {
