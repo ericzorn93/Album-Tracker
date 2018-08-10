@@ -57,7 +57,7 @@
     <session id="-1907340683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -414,12 +414,12 @@
       <workItem from="1532977539760" duration="81000" />
       <workItem from="1532977627929" duration="6836000" />
       <workItem from="1533312284397" duration="65000" />
-      <workItem from="1533752590443" duration="2409000" />
+      <workItem from="1533752590443" duration="2566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92599000" />
+    <option name="totallyTimeSpent" value="92756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="852" extended-state="6" />
